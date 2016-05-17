@@ -12,7 +12,7 @@
 
 # Screen Shot
 <p align="center" >
-<img src="https://raw.github.com/AFNetworking/AFNetworking/assets/afnetworking-logo.png">
+<img src="https://github.com/ShockUtility/AppCast/blob/master/screenshot.png">
 </p>
 
 
