@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<string>All</string>
+	<key>1301</key>
+	<string>Arts</string>
+	<key>1321</key>
+	<string>Business</string>
+	<key>1303</key>
+	<string>Comedy</string>
+	<key>1304</key>
+	<string>Education</string>
+	<key>1323</key>
+	<string>Games &amp; Hobbies</string>
+	<key>1325</key>
+	<string>Government &amp; Organizations</string>
+	<key>1307</key>
+	<string>Health</string>
+	<key>1305</key>
+	<string>Kids &amp; Family</string>
+	<key>1310</key>
+	<string>Music</string>
+	<key>1311</key>
+	<string>News &amp; Politics</string>
+	<key>1314</key>
+	<string>Religion &amp; Spirituality</string>
+	<key>1315</key>
+	<string>Science &amp; Medicine</string>
+	<key>1324</key>
+	<string>Society &amp; Culture</string>
+	<key>1316</key>
+	<string>Sports &amp; Recreation</string>
+	<key>1318</key>
+	<string>Technology</string>
+	<key>1309</key>
+	<string>TV &amp; Flim</string>
+</dict>
+</plist>

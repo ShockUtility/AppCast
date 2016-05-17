@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<string>All</string>
+	<key>12001</key>
+	<string>Business</string>
+	<key>12002</key>
+	<string>Developer Tools</string>
+	<key>12003</key>
+	<string>Education</string>
+	<key>12004</key>
+	<string>Entertainment</string>
+	<key>12005</key>
+	<string>Finance</string>
+	<key>12006</key>
+	<string>Games</string>
+	<key>12022</key>
+	<string>Graphics &amp; Design</string>
+	<key>12007</key>
+	<string>Health &amp; Fitness</string>
+	<key>12008</key>
+	<string>Lifestyle</string>
+	<key>12010</key>
+	<string>Medical</string>
+	<key>12011</key>
+	<string>Music</string>
+	<key>12012</key>
+	<string>News</string>
+	<key>12013</key>
+	<string>Photography</string>
+	<key>12014</key>
+	<string>Productivity</string>
+	<key>12015</key>
+	<string>Reference</string>
+	<key>12016</key>
+	<string>Social Networking</string>
+	<key>12017</key>
+	<string>Sports</string>
+	<key>12018</key>
+	<string>Travel</string>
+	<key>12019</key>
+	<string>Utilities</string>
+	<key>12020</key>
+	<string>Video</string>
+	<key>12021</key>
+	<string>Weather</string>
+</dict>
+</plist>
