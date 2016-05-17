@@ -2,6 +2,7 @@
 test/
 문서/
 참고자료/
+Pods/
 
 # Mac OS X
 *.DS_Store

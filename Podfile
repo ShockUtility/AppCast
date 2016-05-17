@@ -7,6 +7,5 @@ target 'AppCast' do
 	pod 'JSONModel'
 	pod 'FMDB'
 	pod 'AFNetworking', '~> 3.0'
-	pod 'Google-Mobile-Ads-SDK', '~> 7.5'
 end
 

@@ -44,14 +44,6 @@
     _btnCategory.enabled = _type>dtNEW_PAID;
     
     [self onClickReload:nil];
-    
-    // 구글 배너 셋팅
-    self.vwBanner.rootViewController = self;
-    self.vwBanner.adSize = kGADAdSizeBanner;
-    self.vwBanner.adUnitID = @"ca-app-pub-2693561479903032/2344704430"; // 디테일 리스트 하단 광고
-    GADRequest *request = [GADRequest request];
-    request.testDevices = ADMOB_TEST_DEVICES;
-    [self.vwBanner loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning {

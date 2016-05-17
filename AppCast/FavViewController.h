@@ -16,7 +16,6 @@
     NSMutableArray *iosFav, *osxFav, *podFav;
 }
 
-@property (weak, nonatomic) IBOutlet GADBannerView *vwBanner;
 @property (weak, nonatomic) IBOutlet UITableView *tblFavorites;
 
 @end

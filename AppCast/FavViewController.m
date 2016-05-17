@@ -20,14 +20,6 @@
     iosFav = [MyDB select:@"ios"];
     osxFav = [MyDB select:@"osx"];
     podFav = [MyDB select:@"pod"];
-    
-    // 구글 배너 셋팅 
-    self.vwBanner.rootViewController = self;
-    self.vwBanner.adSize = kGADAdSizeBanner;
-    self.vwBanner.adUnitID = @"ca-app-pub-2693561479903032/4172861230"; // 즐겨찾기 하단 광고
-    GADRequest *request = [GADRequest request];
-    request.testDevices = ADMOB_TEST_DEVICES;
-    [self.vwBanner loadRequest:request];
 }
 
 - (IBAction)onClickTrash:(id)sender {

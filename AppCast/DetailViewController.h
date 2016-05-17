@@ -32,7 +32,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnCountry;
 @property (weak, nonatomic) IBOutlet UIView *vwOption;
 @property (weak, nonatomic) IBOutlet UIPickerView *pkOption;
-@property (weak, nonatomic) IBOutlet GADBannerView *vwBanner;
 
 @end
 

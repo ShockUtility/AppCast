@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="H1p-Uh-vWS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="H1p-Uh-vWS">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -34,7 +34,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="51" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lvz-FZ-Whw">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="506"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.13725490200000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell1" rowHeight="164" id="cjB-pB-k6V">
@@ -506,7 +506,7 @@
                                 </connections>
                             </tableView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="viu-GO-FrD">
-                                <rect key="frame" x="0.0" y="506" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="8UA-Zt-34d"/>
                                 </constraints>
@@ -536,13 +536,6 @@
                                 </items>
                                 <color key="barTintColor" red="0.92156862750000001" green="0.76078431369999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
                             </toolbar>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="41x-NG-1xx" customClass="GADBannerView">
-                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
-                                <color key="backgroundColor" red="0.1176470588" green="0.13725490200000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="f4y-pZ-CPd"/>
-                                </constraints>
-                            </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hpQ-ma-MBL">
                                 <rect key="frame" x="0.0" y="350" width="600" height="250"/>
                                 <subviews>
@@ -584,7 +577,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GAO-Cl-Wes" firstAttribute="top" secondItem="viu-GO-FrD" secondAttribute="bottom" constant="50" id="31A-FA-HlO"/>
+                            <constraint firstItem="GAO-Cl-Wes" firstAttribute="top" secondItem="viu-GO-FrD" secondAttribute="bottom" id="31A-FA-HlO"/>
                             <constraint firstItem="GAO-Cl-Wes" firstAttribute="top" secondItem="hpQ-ma-MBL" secondAttribute="bottom" id="988-4z-Ggw"/>
                             <constraint firstItem="lvz-FZ-Whw" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" id="9j2-2y-GJp"/>
                             <constraint firstAttribute="trailing" secondItem="hpQ-ma-MBL" secondAttribute="trailing" id="D09-vL-7bn"/>
@@ -594,9 +587,6 @@
                             <constraint firstAttribute="trailing" secondItem="lvz-FZ-Whw" secondAttribute="trailing" id="gL5-oP-Nu8"/>
                             <constraint firstItem="hpQ-ma-MBL" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" id="ogp-Mt-ssM"/>
                             <constraint firstItem="viu-GO-FrD" firstAttribute="top" secondItem="lvz-FZ-Whw" secondAttribute="bottom" id="q3b-JQ-R5H"/>
-                            <constraint firstAttribute="trailing" secondItem="41x-NG-1xx" secondAttribute="trailing" id="qge-f5-hjg"/>
-                            <constraint firstItem="41x-NG-1xx" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" id="s7t-R9-BMt"/>
-                            <constraint firstItem="GAO-Cl-Wes" firstAttribute="top" secondItem="41x-NG-1xx" secondAttribute="bottom" id="wb4-9d-0MV"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -613,7 +603,6 @@
                         <outlet property="btnLimits" destination="F2z-nm-9nD" id="DhG-0F-r3i"/>
                         <outlet property="pkOption" destination="NUL-sc-3IX" id="F9G-kX-wfD"/>
                         <outlet property="tblEntry" destination="lvz-FZ-Whw" id="GWR-5C-eIj"/>
-                        <outlet property="vwBanner" destination="41x-NG-1xx" id="bwb-Aa-xcV"/>
                         <outlet property="vwOption" destination="hpQ-ma-MBL" id="axB-BI-YlO"/>
                     </connections>
                 </viewController>
@@ -1164,7 +1153,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="2jR-Ln-c5d">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="550"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.13725490200000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell1" rowHeight="164" id="sdU-YM-MQp">
@@ -1527,29 +1516,18 @@
                                     <outlet property="delegate" destination="bZP-Ui-mhS" id="4EB-mv-ZJb"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fRG-Xv-k5R" customClass="GADBannerView">
-                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
-                                <color key="backgroundColor" red="0.1176470588" green="0.13725490200000001" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="07n-gs-6kl"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2jR-Ln-c5d" firstAttribute="leading" secondItem="4aw-BI-Zuk" secondAttribute="leading" id="6Is-b5-1GY"/>
-                            <constraint firstAttribute="trailing" secondItem="fRG-Xv-k5R" secondAttribute="trailing" id="PJn-0F-d6N"/>
                             <constraint firstItem="2jR-Ln-c5d" firstAttribute="top" secondItem="4aw-BI-Zuk" secondAttribute="top" id="acR-pE-hpb"/>
-                            <constraint firstItem="fRG-Xv-k5R" firstAttribute="top" secondItem="2jR-Ln-c5d" secondAttribute="bottom" id="ajf-nM-42R"/>
-                            <constraint firstItem="fRG-Xv-k5R" firstAttribute="leading" secondItem="4aw-BI-Zuk" secondAttribute="leading" id="bAl-P3-e48"/>
                             <constraint firstAttribute="trailing" secondItem="2jR-Ln-c5d" secondAttribute="trailing" id="lRv-vc-WbV"/>
-                            <constraint firstItem="caz-7V-cIH" firstAttribute="top" secondItem="fRG-Xv-k5R" secondAttribute="bottom" id="riz-cw-KkK"/>
+                            <constraint firstItem="caz-7V-cIH" firstAttribute="top" secondItem="2jR-Ln-c5d" secondAttribute="bottom" id="uGx-Ve-26c"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Favorites" id="yCW-yG-WJy"/>
                     <connections>
                         <outlet property="tblFavorites" destination="2jR-Ln-c5d" id="hp9-pc-i1v"/>
-                        <outlet property="vwBanner" destination="fRG-Xv-k5R" id="iBE-CH-svQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LNm-df-qiW" userLabel="First Responder" sceneMemberID="firstResponder"/>
