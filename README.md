@@ -21,6 +21,7 @@ iTunes RSS 데이터를 사용 했습니다.
 
 # Installation
 ```sh
+$ git clone https://github.com/ShockUtility/AppCast.git
 $ pod install
 ```
 
