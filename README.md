@@ -19,7 +19,7 @@ iTunes RSS 데이터를 사용 했습니다.
 * [FMDB](https://github.com/ccgus/fmdb)
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 
-# Installation
+# Installation (required [cocoapods](https://cocoapods.org/))
 ```sh
 $ git clone https://github.com/ShockUtility/AppCast.git
 $ pod install
